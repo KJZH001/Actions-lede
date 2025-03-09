@@ -7,4 +7,7 @@
 #更改design主题为白色
 # sed -i 's/dark/light/g' feeds/luci/applications/luci-app-design-config/root/etc/config/design
 
+# 修改默认主题
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+
 echo "init-settings executed successfully!"
