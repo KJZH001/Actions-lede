@@ -124,8 +124,3 @@ config rule
 	option proto 'udp'
 	option target 'ACCEPT'
 
-config include 'nikki'
-	option type 'script'
-	option path '/etc/nikki/scripts/firewall_include.sh'
-	option fw4_compatible '1'
-
