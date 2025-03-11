@@ -21,7 +21,7 @@ rm -rf ./feeds/luci/applications/luci-app-passwall2
 
 #克隆插件
 ## git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/pwpage
-git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git feeds/nikki #Nikki
+git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git package/nikki #Nikki
 
 
 mkdir package/small
