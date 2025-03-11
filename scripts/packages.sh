@@ -20,7 +20,7 @@ rm -rf ./feeds/luci/applications/luci-app-passwall2
 
 
 #克隆插件
-git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/pwpage
+## git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/pwpage
 git clone https://github.com/nikkinikki-org/OpenWrt-nikki.git feeds/nikki #Nikki
 
 
@@ -36,9 +36,9 @@ pushd package/small
 #ssrp
 # git clone -b master --depth 1 https://github.com/fw876/helloworld.git
 #passwall
-git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
+## git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
 #passwall2
-git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
+## git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
 #mosdns
 # git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 #openclash
